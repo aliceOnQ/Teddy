@@ -5,19 +5,13 @@ const Banner = () => (
     <div className={styles.banner}>
         <Carousel autoplay>
             <div>
-            <img className={styles.img} src="/images/banner_drama.png" />
+            <img className={styles.img} src="/images/banner-1.jpeg" />
             </div>
             <div>
-            <img className={styles.img} src="/images/banner_music.png" />
+            <img className={styles.img} src="/images/banner-2.jpg" />
             </div>
             <div>
-            <img className={styles.img} src="/images/banner_md.png" />
-            </div>
-            <div>
-            <img className={styles.img} src="/images/banner_show.png" />
-            </div>
-            <div>
-            <img className={styles.img} src="/images/banner_concert.png" />
+            <img className={styles.img} src="/images/banner-3.jpg" />
             </div>
         </Carousel>
     </div>

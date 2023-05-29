@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Artist from './pages/Artist'
-import About from './pages/About'
+import Hot from './pages/Hot'
 import Shop from './pages/Shop'
 import Product from './pages/Product';
 import Category from './pages/Category'
@@ -19,6 +19,7 @@ import Profile from './pages/Profile'
 function Router() {
     const lightMode = useSelector(selectLightMode);
     const theme = lightMode ? lightTheme : darkTheme;
+    
     return (
 
         <ConfigProvider theme={theme} >
@@ -26,10 +27,10 @@ function Router() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="Hot" element={<Hot />} />
                         <Route path="artist" element={<Artist />} >
                             <Route path="artcategory/:artcategoryName" element={<Artist />} />
                         </Route>
-                        <Route path="about" element={<About />} />
                         <Route path="shop" element={<Shop />} />
                         <Route path="products">
                             <Route path="category/:categoryName" element={<Category />} />

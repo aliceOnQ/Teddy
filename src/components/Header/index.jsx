@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 import HamburgerMenu from "../HamburgerMenu"
 import CartSummary from "../CartSummary";
 import { theme } from 'antd';
-import SetColorMode from "../SetColorMode"
 import Favorite from "../Favorite";
 import UserInfo from "../UserInfo";
 
@@ -32,7 +31,7 @@ export default function Header() {
                 
                 <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
                 <div className={styles.IconArea}>
-                    <SetColorMode />
+                
                     <Favorite/>
                     <UserInfo/>
                     

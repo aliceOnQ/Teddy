@@ -18,7 +18,7 @@ export default function CompanyItro() {
         }
     }
     const typingText = {
-        hidden: { opacity: 0, y: "-20px" },
+        hidden: { opacity: 0, y: "20px" },
         show: {
             opacity: 1,
             y: "0",
@@ -77,7 +77,7 @@ export default function CompanyItro() {
                         }
                     </motion.h1>
                 </div>
-                <motion.p className={styles.sment} variants={explainProduct} initial="hidden" animate="show">SM Entertainment</motion.p>
+                <motion.p className={styles.sment} variants={explainProduct} initial="hidden" animate="show">Teddy Land</motion.p>
             </div>
             <motion.img className={styles.smpic} variants={pic} initial="hidden" animate="show" src="/images/smtown.jpg" alt="smtown" />
             <motion.p className={styles.description}

@@ -9,15 +9,16 @@ export default function NavBar({ open, onClose }) {
     } = theme.useToken();
 
     const NavBarContent = () => (
-        <>
+        <> 
+            <NavLink to="/hot" style={{color: colorTextBase}}
+                className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
+                Hot
+            </NavLink>
             <NavLink to="/artist" style={{color: colorTextBase}}
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                Artist
+                Library
             </NavLink>
-            <NavLink to="/about" style={{color: colorTextBase}}
-                className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
-                About
-            </NavLink>
+           
             <NavLink to="/shop" style={{color: colorTextBase}}
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 Shop

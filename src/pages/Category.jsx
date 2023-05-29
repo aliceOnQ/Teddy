@@ -5,7 +5,6 @@ import { theme } from 'antd';
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Search from '../components/Search';
-import NavBar2 from '../components/NavBar2'
 import Dropdown from '../components/DropDown';
 import ProductList from "../components/ProductList";
 import { useState } from 'react';

@@ -18,10 +18,10 @@ export default function ({ children, onClick, selected, id, to }) {
          y: '-10px',
       },
       visible: {
-         opacity: 0.7,
+         opacity: 0.5,
          y: 0,
          transition: {
-            duration: 0.3,
+            duration: 0.1,
             ease: "linear",
          }
       },

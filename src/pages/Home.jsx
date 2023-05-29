@@ -31,7 +31,7 @@ function Home() {
         <MotionPage className="mainLayout">
             <ScrollToTopOnMount />
             <Helmet>
-                <title>SMTOWN&SHOP</title>
+                <title>Teddy Land</title>
                 <style>{`
             body { 
               background-color: ${colorBg};
