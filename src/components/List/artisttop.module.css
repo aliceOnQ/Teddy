@@ -8,11 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border:solid 4px #F18BA2;
-    border-radius:22px ;
-    width: 225px;
+    width: 500px;
     height: 75px;
     font-weight: 600;
-    color: #414666;
     margin-top: 4rem;
 }

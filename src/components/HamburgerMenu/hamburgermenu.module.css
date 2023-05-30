@@ -9,7 +9,7 @@
     opacity: 1;
     left: 1rem;
     top: 0rem;
-    transition: all 0.25s linear;
+    transition: all 0.2s linear;
   }
   
   @media (min-width: 768px) {
@@ -26,7 +26,7 @@
   .baseMenuBar {
     display: inline-block;
     position: relative;
-    background-color: #414666;
+    background-color: #ffffff;
     width: 24px;
     height: 3px;
   }
@@ -54,7 +54,7 @@
   .hamMenuBar1_Touch {
     composes: hamMenuBar1;
     width: 30px;
-    top: 16px;
+    top: 20px;
     opacity: 0;
   }
   
@@ -68,7 +68,7 @@
   .hamMenuBar3_Touch {
     composes: hamMenuBar3;
     width: 30px;
-    bottom: 25px;
+    bottom: 20px;
     opacity: 1;
     transform: rotate(-2deg);
     transform: rotate(-45deg);

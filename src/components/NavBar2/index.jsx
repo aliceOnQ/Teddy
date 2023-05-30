@@ -66,35 +66,35 @@ export default function NavBar2() {
         id={0}
         selected={selected}
         to="/products/category/album">
-        ALBUM
+        0~1000
       </MotionNavLink>
       <MotionNavLink
         onClick={() => setSelected(1)}
         id={1}
         selected={selected}
         to="/products/category/photobook">
-        PHOTOBOOK
+        1001~5000
       </MotionNavLink>
       <MotionNavLink
         onClick={() => setSelected(2)}
         id={2}
         selected={selected}
         to="/products/category/concert">
-        CONCERT
+        5001~10000
       </MotionNavLink>
       <MotionNavLink
         onClick={() => setSelected(3)}
         id={3}
         selected={selected}
         to="/products/category/fashion">
-        FASHION
+        10001~100000
       </MotionNavLink>
       <MotionNavLink
         onClick={() => setSelected(4)}
         id={4}
         selected={selected}
         to="/products/category/exclusive">
-        EXCLUSIVE
+        100001~500000
       </MotionNavLink>
     </motion.ul>
   )

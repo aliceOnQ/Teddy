@@ -4,26 +4,27 @@ const darkTheme = {
   algorithm: theme.darkAlgorithm,
   token: {
     colorPrimary: "#1677ff",
-    colorBgBase	: "#F18BA2",
-    colorBg:"#1A1A29",
+    colorBgBase	: "#dec19b",
+    colorBg:"#f0d8b9",
     colorTextBase: "#ffffff",
+    colorTextBase1: "#75564c",
     colorTextBase2: "#ffffff",
-    colorTextBase3: "#FCE1E7",
-    colorBgHeader: "#F18BA2",
-    inputContainer:"#747BA8"
+    colorTextBase3: "#75564c",
+    colorBgHeader: "#75564c",
+    inputContainer:"#75564c"
   },
   components: {
     Button: {
-      colorPrimary: "#F18BA2",
-      colorPrimaryHover: "#FFB6C7",
-      colorBorder: "#F18BA2",
+      colorPrimary: "#75564c",
+      colorPrimaryHover: "#75564c",
+      colorBorder: "#75564c",
             lineWidth: "4",
-            colorText: "#F18BA2",
+            colorText: "#75564c",
     },
     Input:{
-        colorBgContainer:" #696D8A",
-        colorBorder:"#696D8A",
-        colorTextQuaternary:"#FFFFF",
+        colorBgContainer:" #75564c",
+        colorBorder:"#75564c",
+        colorTextQuaternary:"#75564c",
         
     },
     Badge:{fontSize:"16"}
@@ -33,29 +34,29 @@ const darkTheme = {
 const lightTheme = {
   algorithm: theme.defaultAlgorithm,
   token: {
-    colorBgBase	: "#FCE1E7",
-    colorBg:"#ffffff",
+    colorBgBase	: "#75564c",
+    colorBg:"#75564c",
     colorTextBase: "#434868",
-    colorTextBase2: "#000000",
+    colorTextBase2: "#75564c",
     colorTextBase3: "#747BA8",
-    colorBgHeader: "#FCE1E7",
-    inputContainer:"#FCE1E7"
+    colorBgHeader: "#75564c",
+    inputContainer:"#75564c"
     // colorBorder: "#F18BA2",
     //         lineWidth: "4",
     //         colorText: "#F18BA2",
   },
   components: {
     Button: {
-      colorPrimary: "#F18BA2",
-     colorPrimaryHover: "#FFB6C7",
-      colorBorder: "#F18BA2",
+      colorPrimary: "#75564c",
+     colorPrimaryHover: "#75564c",
+      colorBorder: "#75564c",
             lineWidth: "4",
-            colorText: "#F18BA2",
+            colorText: "#75564cr",
     },
     Input:{
-        colorBgContainer:"#696D8A",
+        colorBgContainer:"#75564c",
         // colorBorder:"#696D8A",
-        colorTextQuaternary:"#FFFFF",
+        colorTextQuaternary:"#75564c",
        
 
     },

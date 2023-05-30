@@ -34,7 +34,7 @@ function Shop() {
    
     const products = data || [];
 
-    // const _products = !categoryName
+     // const _products = !categoryName
     //     ? products
     //     : products.filter(
     //         x => x?.category.toUpperCase() === categoryName.toUpperCase(),
@@ -80,7 +80,6 @@ function Shop() {
                 <div className="title">
                     <Pagination defaultCurrent={1} postsPerPage={postsPerPage} total={50} />
                 </div>
-
             </div>
             <Footer className="layoutFooter" />
 

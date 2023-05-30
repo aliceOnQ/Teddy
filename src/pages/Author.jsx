@@ -5,7 +5,7 @@ import { theme } from 'antd';
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Search from '../components/Search';
-import Dropdown from '../components/DropDown';
+import NavBar2 from '../components/NavBar2'
 import ProductList from "../components/ProductList";
 import { useState } from 'react';
 import { useProductsBySku } from '../react-query';
@@ -46,7 +46,7 @@ function Shop() {
                     <title style={{ color: colorTextBase }}>SHOP</title>
 
                     <Search />
-                    <Dropdown />
+                    <NavBar2 />
                 </div>
                 <ProductList products={products} posts={currentPosts} />
                 {/* onChange={(page,pageSize)=>{setCurrentPage(page)}} */}

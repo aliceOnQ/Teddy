@@ -32,15 +32,15 @@ const LoginCard = ({ redirect }) => {
             onFinish={onFinish}
         >   <ConfigProvider theme={{
             token: {
-                colorBgContainer: "#FCE1E7",
-                colorPrimary: "#F18BA2",
+                colorBgContainer: "#FFFFFF",
+                colorPrimary: "#75564c",
             },
             components: {
                 Input: {
-                    colorBgContainer: "#FCE1E7",
-                    colorBorder: "#FCE1E7",
-                    colorText: "#696D8A",
-                    colorTextPlaceholder: "#696D8A"
+                    colorBgContainer: "#75564c",
+                    colorBorder: "#75564c",
+                    colorText: "#75564c",
+                    colorTextPlaceholder: "#FFFFFF"
                 }
 
             },
@@ -126,20 +126,7 @@ const LoginCard = ({ redirect }) => {
                 <p style={{ color: "#F18BA2", fontWeight: 600 }}>countinue with</p>
                 <div className={styles.line}></div>
             </div>
-            <Form.Item className={styles.loginFormOther}>
-
-                <Link to={"/"}>
-                    <img src="/images/fb_login.png" />
-                </Link>
-                <Link to={"/"}>
-                    <img src="/images/google_login.png" />
-                </Link>
-
-                <Link to={"/"}>
-                    <img src="/images/kakao_login.png" />
-                </Link>
-
-            </Form.Item>
+           
             <p style={{ fontSize: "20px", color: "#747BA8" }}>Don't have an account ?</p>
             <Form.Item>
                 <Link style={{ fontSize: "24px", color: "#434868", fontWeight: "bold" }} to={`/auth/register?redirect=/auth/profile`}>Sign Up</Link>

@@ -5,7 +5,8 @@ import { Link } from "react-router-dom"
 import HamburgerMenu from "../HamburgerMenu"
 import CartSummary from "../CartSummary";
 import { theme } from 'antd';
-import Favorite from "../Favorite";
+
+
 import UserInfo from "../UserInfo";
 
 
@@ -26,13 +27,12 @@ export default function Header() {
                 />
                 
                 <Link to="/">
-                    <img className={styles.logo} src="/images/LOGO.svg" alt="logo" />
+                    <img className={styles.logo} src="/images/teddy-bear.png" alt="logo" />
                 </Link>
                 
                 <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
                 <div className={styles.IconArea}>
-                
-                    <Favorite/>
+                 
                     <UserInfo/>
                     
                     <CartSummary style={{marginTop:'5px'}}/>

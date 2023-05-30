@@ -17,7 +17,7 @@ export default function Album({ images }) {
     dots: false,
     lazyLoad: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 5,
     SlidesToScroll: 1,
     centerMode: true,
@@ -38,51 +38,14 @@ export default function Album({ images }) {
           SlidesToScroll: 1,
         }
       },
-      {
-        breakpoint: 464,
-        settings: {
-          slidesToShow: 1,
-          SlidesToScroll: 1,
-        }
-      }
+
     ]
   };
   return (
 
     <div className={styles.album}>
       <div className={styles.layout}>
-        <h1 className={styles.title} style={{color: colorTextBase,}}>ALBUM</h1>
-        <div className={styles.slider}>
-          <Carousel {...settings} ref={ref} key={images.id}>
-            {
-              images.map((img, idx) => (
-                <div className={idx === imageIndex ? styles.activeSlide : styles.slide}>
-                  <a><img src={img.img} /></a>
-                  <div className={styles.description} style={{color: colorTextBase,}}>
-                    <p className={styles.name}>{img.name}</p>
-                    <p className={styles.albumName}>{img.description}</p>
-                  </div>
-                </div>
-              ))
-            }
-          </Carousel>
-        </div>
       </div>
-      <div className={styles.btn}>
-        <Button onClick={() => {
-          ref.current.prev();
-        }}
-        >
-          <LeftOutlined />
-        </Button>
-        <Button onClick={() => {
-          ref.current.next();
-        }}
-        >
-          < RightOutlined />
-        </Button>
-      </div>
-      <div className={styles.more}><a href="#"> <p>More...</p></a></div>
     </div>
 
   );

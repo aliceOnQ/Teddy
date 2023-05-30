@@ -9,23 +9,21 @@ export default function Footer() {
         <div>
             <hr className={styles.hrFooterLine} />
             <div className={styles.Footer}>
-                <p className={styles.webName} style={{color: colorTextBase,}}>Teddy Land</p>
-                <div className={styles.IconArea}>
-                    <a href="https://www.facebook.com/smtown" target="_blank">
-                        <img className={styles.icon} src="/images/FB_icon.png" alt="facebook" />
+                <p className={styles.webName} style={{color: colorTextBase,}}>Contact Us</p>
+                <div className={styles.IconArea}> 
+                    <a href="https://www.google.com/intl/zh-TW_tw/gmail/about/" target="_blank">
+                        <img className={styles.icon} src="/images/mail.png" alt="twitter" />
                     </a>
-                    <a href="https://www.instagram.com/smtown/" target="_blank">
-                        <img className={styles.icon} src="/images/INS_icon.png" alt="instagram" />
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img className={styles.icon} src="/images/fb.png" alt="facebook" />
                     </a>
-                    <a href="https://twitter.com/SMTOWNGLOBAL" target="_blank">
-                        <img className={styles.icon} src="/images/TWITTER_icon.png" alt="twitter" />
-                    </a>
-                    <a href="https://www.youtube.com/c/SMTOWN" target="_blank">
-                        <img className={styles.icon} src="/images/YT_icon.png" alt="youtube" />
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img className={styles.icon} src="/images/ig.png" alt="instagram" />
                     </a>
                 </div>
-                <p className={styles.copyRight} style={{color: colorTextBase,}}>© 2023 SMTOWN&SHOP</p>
+                <p className={styles.copyRight} style={{color: colorTextBase,}}>Teddy Land</p>
             </div>
+            <hr className={styles.hrFooterLine2} />
         </div>
     )
 }

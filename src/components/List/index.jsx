@@ -1,14 +1,14 @@
 import styles from "./artisttop.module.css";
 import { theme } from 'antd';
 
-export default function ArtistTop(){
+export default function list(){
     const {
         token: { colorTextBase },
       } = theme.useToken();
     
     return(
         <div className={styles.layout}>
-            <h1 className={styles.title} style={{color: colorTextBase,}}>ARTIST</h1>
+            <h1 className={styles.title} style={{color: colorTextBase,}}>OLD TEDDY BEARS</h1>
         </div>
     )
 }

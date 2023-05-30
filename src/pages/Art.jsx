@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import CompanyItro from "../components/CompanyItro";
+import Text from "../components/Text";
 import { Helmet } from "react-helmet-async"
 import { theme } from 'antd';
 import { useLocation } from "react-router-dom";
@@ -18,7 +18,7 @@ function ScrollToTopOnMount() {
     return null;
 }
 
-function Hot() {
+function Art() {
     const {
         token: { colorBg, colorTextBase},
     } = theme.useToken();
@@ -27,7 +27,7 @@ function Hot() {
         <MotionPage className="mainLayout">
             <ScrollToTopOnMount />
             <Helmet>
-                <title>HOT</title>
+                <title>ART</title>
                 <style>{`
             body { background-color: ${colorBg}; }
         `}</style>
@@ -35,9 +35,9 @@ function Hot() {
             <Header className="layoutHeader" />
             <div className="layoutContent" >
                 <div className="search">
-                    <title style={{color: colorTextBase}}>Company Introduction</title>
+                    <title style={{color: colorTextBase}}>IMAGINATION</title>
                 </div>
-                <CompanyItro/>
+                <Text/>
                
             </div>
             <Footer className="layoutFooter" />
@@ -46,4 +46,4 @@ function Hot() {
     )
 }
 
-export default Hot;
+export default Art;
