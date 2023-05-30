@@ -73,15 +73,15 @@ const ProfileCard = ({ redirect }) => {
             initialValues={userInfo}
         >   <ConfigProvider theme={{
             token: {
-                colorBgContainer: "#FCE1E7",
+                colorBgContainer: "#75564c",
                 colorPrimary: "#F18BA2",
 
             },
             components: {
                 Input: {
-                    colorBgContainer: "#FCE1E7",
-                    colorBorder: "#FCE1E7",
-                    colorText: "#696D8A"
+                    colorBgContainer: "#75564c",
+                    colorBorder: "#75564c",
+                    colorText: "#FFFFFF"
                 }
 
             },
