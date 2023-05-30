@@ -166,11 +166,10 @@ const RegisterCard = ({ redirect }) => {
             </Form.Item>
             <div className={styles.continue}>
                 <div className={styles.line}></div>
-                <p style={{ color: "#F18BA2",fontWeight:600}}>countinue with</p>
+                <p style={{ color: "#FFFFFF",fontWeight:600}}>or</p>
                 <div className={styles.line}></div>
             </div>
             
-            <p style={{ fontSize: "20px", color: "#747BA8" }}>Already have an account ?</p>
             <Form.Item>
                 <Link style={{ fontSize: "24px", color: "#434868", fontWeight: "bold" }} to={`/auth/login?redirect=${redirect}`}>Login</Link>
             </Form.Item>
