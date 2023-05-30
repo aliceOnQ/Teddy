@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Artist from './pages/Artist'
+import Teddy from './pages/Teddy'
 import Art from './pages/Art'
 import Shop from './pages/Shop'
 import Product from './pages/Product';
@@ -23,8 +23,8 @@ function Router() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="BEAR" element={<Artist />} >
-              <Route path="artcategory/:artcategoryName" element={<Artist />} />
+            <Route path="BEAR" element={<Teddy />} >
+              <Route path="artcategory/:artcategoryName" element={<Teddy />} />
             </Route>
             <Route path="ART" element={<Art />} />
             <Route path="SHOP" element={<Shop />} />

@@ -1,4 +1,4 @@
-import styles from "./artisttop.module.css";
+import styles from "./List.module.css";
 import { theme } from 'antd';
 
 export default function list(){

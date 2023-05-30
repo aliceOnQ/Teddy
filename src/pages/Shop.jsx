@@ -1,18 +1,18 @@
-import { Pagination } from 'antd';
-import { Helmet } from "react-helmet-async"
-import { useParams } from 'react-router-dom';
-import { theme } from 'antd';
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import Search from '../components/Search';
-import NavBar2 from '../components/NavBar2'
-import ProductList from "../components/ProductList";
-import { useState } from 'react';
-import { useProducts } from '../react-query';
-import { useQueries } from 'react-query';
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
-import MotionPage from '../components/MotionPage';
+// import { Pagination } from 'antd';
+// import { Helmet } from "react-helmet-async"
+// import { useParams } from 'react-router-dom';
+// import { theme } from 'antd';
+// import Header from "../components/Header"
+// import Footer from "../components/Footer"
+// import Search from '../components/Search';
+// import NavBar2 from '../components/NavBar2'
+// import ProductList from "../components/ProductList";
+// import { useState } from 'react';
+// import { useProducts } from '../react-query';
+// import { useQueries } from 'react-query';
+// import { useLocation } from "react-router-dom";
+// import { useEffect } from "react";
+// import MotionPage from '../components/MotionPage';
 
 
 function ScrollToTopOnMount() {

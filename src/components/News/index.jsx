@@ -38,7 +38,7 @@ export default function News() {
                         <div className={styles.carousel}>
                             <Carousel autoplay autoplaySpeed={6000} fade={true} dots={false}>
                                 <div>
-                                    <img className={styles.newsPic} src="/images/intothenewworld.jpg" />
+                                    <img className={styles.newsPic} src="/images/broke-heart.jpg" />
                                 </div>
                             </Carousel>
                         </div>
